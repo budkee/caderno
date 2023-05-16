@@ -1,3 +1,4 @@
+# Função para determinar os divisores de um número
 def divisores(num):
     lista = []
     qualquer = 1  # num % 1 == 0
