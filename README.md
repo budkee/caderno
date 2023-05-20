@@ -1,5 +1,8 @@
 # Caderno Virtual
 
+- Python
+- JavaScript
+
 Local pra guardar códigos que lá na frente eu sei que vou precisar.
 
 ## Observações
