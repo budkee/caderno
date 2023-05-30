@@ -10,6 +10,3 @@ somaEst = sum(estatistica)
 # Somatório dos produtos entre as notas
 # Calcular os produtos
 produtos = []
-for notaM in matematica:
-    
-print(produtos)
