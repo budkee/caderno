@@ -23,3 +23,4 @@ for i in range(1, tam):
 # Imprima sem colchetes
 for i in range(tam):
     print("{}".format(lista[i]), end=' ')
+
