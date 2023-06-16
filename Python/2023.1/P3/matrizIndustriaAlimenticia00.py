@@ -1,4 +1,4 @@
-# Programa: matrizIndustriaAlimenticia.py
+# Programa: matrizIndustriaAlimenticia00.py
 # Programador:
 # Data:
 
@@ -31,7 +31,7 @@ for i in range(0, lin):
 # Passo 2. Calcule a produção total da indústria - soma das listas
 for i in range(lin):  # fixa linha i
     for j in range(col):  # percorre as colunas da linha i
-        mc[i][j] = tl[i][j] + cx[i][j]  # soma dos elementos da linha i
+        mc[i][j] = tl[i][j] + cx[i][j]  # soma dos elementos da linha ij
 # Passo 3. Imprima a produção total linha a linha
 for i in range(lin):
     print(mc[i])
