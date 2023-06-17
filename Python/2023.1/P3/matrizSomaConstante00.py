@@ -48,7 +48,7 @@ while i < n and somaconst:
     diagonal1 = diagonal1 + matriz[i][i]
     diagonal2 = diagonal2 + matriz[i][n - 1 - i]
 
-    # Passo 2.2.3. Regitre a primeira soma
+    # Passo 2.2.3. Registre a primeira soma
     if i == 0:
         soma = linha
 
