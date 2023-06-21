@@ -37,7 +37,7 @@ diagonal2 = 0
 i = 0
 while i < n and somaconst:
 
-    # Passo 2.2.1. Inicialize a sama das linhas e colunas
+    # Passo 2.2.1. Inicialize a soma das linhas e colunas
     linha = 0
     coluna = 0
 

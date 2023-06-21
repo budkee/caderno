@@ -42,7 +42,7 @@ for i in range(tam):
 # Passo 2. Calcule os salários
 # Passo 2.1. Calcule o salário do funcionário i
 for i in range(tam):
-    horasextras = 0.5 * (cadastro[i]['horas'] – 40) * cadastro[i]['salario']
+    horasextras = 0.5 * (cadastro[i]['horas'] - 40) * cadastro[i]['salario']
     valor = (cadastro[i]['horas'] * cadastro[i]['salario']) + horasextras
     # Passo 2.1.1. Copia parte da lista de dicionários
     folha[i]['num'] = cadastro[i]['num']
