@@ -1,16 +1,13 @@
 def fprimo(n):
-
-    if n // 1 == n or n // n == 1:
-        primo = True
+    div = 2
+    while n % div != 0:
+        div += 1
+    if n == div:
+        msg = 'primo'
     else:
-        primo = False
-    return primo
+        msg = 'não primo'
+    return msg
 
-n = int(input())
-
-if fprimo(n):
-    msg = 'primo'
-else:
-    msg = 'não primo'
-
+num = int(input())
+msg =fprimo(num)
 print(msg)
