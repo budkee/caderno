@@ -1,5 +1,5 @@
 # -*- coding: utf-8 -*-
-# Programa dicionario05.py
+# Programa dicionarios05.py
 # Programador:
 # Data: 21/06/23
 

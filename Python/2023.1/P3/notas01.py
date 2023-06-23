@@ -47,8 +47,8 @@ for i in range(tam):
     mediafinal = 0.75 * mediaprovas + 0.25 * mediatrab
 
     # Passo 1.3.2.4. Imprime os resultados
-    print('{0:d}  '.format(estudante['numero']), end='')
-    print('{0:s} {1:.1f}'.format(estudante['nome'], mediafinal))
+    print('{0:s} {1:s} {2:.1f}'.format(estudante[i]['nome'], estudante[i]['snome'],
+                                       estudante[i]['mf']))
 
 # pós: para i em {0..tam-1}: nome, mediafinal[i] and
 #      mediafinal[i] == 0.75*mediaprovas[i]+0.25*mediatrabalhos[i]

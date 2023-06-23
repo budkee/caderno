@@ -1,4 +1,5 @@
 def fprimo(n):
+    # Método mais trivial e menos eficaz para descobrir o número primo
     div = 2
     while n % div != 0:
         div += 1
