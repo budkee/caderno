@@ -1,4 +1,4 @@
-def piso_log2(num: int):
+def piso_log2(num):
     pot2 = 1
     res1 = 0
     while pot2 <= num:
