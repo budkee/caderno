@@ -41,16 +41,18 @@ for i in range(tam):
     # 3. Media final
     estudantes[i]['mf'] = round(0.75 * mediaprovas + 0.25 * mediatrab, 1)
 
-print(estudantes)
+# print(estudantes): tudo certo até aqui.
+
 # Passo 2.2 Ordene os dados pelo ordem alfabética
-for i in range(1, tam):
-    chave = estudantes[i]['nome']
-    del estudantes[i]['nome']
-    j = i - 1
-    while j >= tam and chave < estudantes[j]:
-        estudantes[j + 1]['nome'] = estudantes[j]['nome']
-        j -= 1
-    estudantes[i] = estudantes.insert(j + 1, chave)
+trocou = True
+while trocou:
+    trocou = False
+    for i in range(0, tam-1):
+        if estudantes[i]['nome'] > estudantes[i+1]['nome']:
+            estudantes[i], estudantes[i+1] = estudantes[i+1], estudantes[i]
+            trocou = True
+
+# print(estudantes): tudo certo até aqui.
 
 # Passo 3. Imprima os Dados
 for i in range(tam):
