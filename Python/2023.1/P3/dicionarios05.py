@@ -19,15 +19,15 @@
 tam = int(input())
 # Passo 1.2. Leia os dados dos estudantes
 chaves = ['nome', 'snome', 'notas']
-estudante = dict.fromkeys(chaves)
+estudante = [dict.fromkeys(chaves) for _ in range(tam)]
 dados = []
 for i in range(tam):
     # Leitura
     dados = input().split()
     # Atribuição
-    estudante['nome'] = dados[0]
-    estudante['snome'] = dados[1]
-    estudante['notas'] = list(map(float, dados[2].split()))
+    estudante[i]['nome'] = dados[0]
+    estudante[i]['snome'] = dados[1]
+    estudante[i]['notas'] = list(map(float, dados[2].split()))
 
     # Média final do aluno
     # 1. Media provas
@@ -37,7 +37,7 @@ for i in range(tam):
     # 3. Media final
     mediafinal = 0.75 * mediaprovas + 0.25 * mediatrab
 
-print(estudante[0], estudante[1])
+print(estudante)
 # Passo 2.2 Ordene os dados
 
 # Passo 2.1.1. Atribua a temp o valor a ser inserido na lista ordenada

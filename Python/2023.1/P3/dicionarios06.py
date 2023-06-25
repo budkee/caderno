@@ -1,4 +1,3 @@
-# -*- coding: utf-8 -*-
 # Programa: nomes00.py
 # Programador:
 

@@ -5,7 +5,3 @@
 - Python
 - JavaScript
 - Dart
-
-## Debugs
-
-[] calculoAguaEsgoto.py
