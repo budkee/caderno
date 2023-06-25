@@ -3,7 +3,9 @@
 # Data: 07/11/2016
 # Este programa lê duas palavras, compara as palavras, computa a
 # maior palavra, lexicograficamente, e imprime a maior.
+
 # início do módulo principal
+
 # descrição das variáveis utilizadas
 # str palavra1, palavra2, maior
 # pré: palavra1 palavra2

@@ -6,7 +6,9 @@
 # quantidade de números a serem lidos. O programa le cada
 # um dos números e a cada número lido computa se ele é
 # palíndromo.
+
 # início do módulo principal
+
 # descrição das variáveis utilizadas
 # int numero, num, reverso, digito
 

@@ -9,7 +9,9 @@
 # segunda e 'menor' se a primeira for menor lexicograficamente 
 # que a segunda. O programa não pode usar nenhuma função que 
 # faça comparação de strings. A função len() pode ser usada
+
 # início do módulo principal
+
 # descrição das variáveis utilizadas
 # str palavra1, palavra2, compara
 # int tam1, tam2, menor

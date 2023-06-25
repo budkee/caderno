@@ -6,7 +6,9 @@
 # de caracteres ASCII visíveis separados por um caractere espaço) e
 # imprime o resultado. Os sinais de pontuação são considerados como parte
 # das palavras.
+
 # início do módulo principal
+
 # descrição das variáveis utilizadas
 # list palavras
 # str frase

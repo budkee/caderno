@@ -8,8 +8,10 @@
 # que a segunda, ou imprime menor se a primeira for menor 
 # lexicograficamente que a segunda ou imprima igual se
 # as strings forem iguais.
+
 # início do módulo principal
-# descrição das variáveis utilizadas  
+
+# descrição das variáveis utilizadas
 # str string1, string2 - strings a serem comparadas
 # str compara - comparação das strings
 
