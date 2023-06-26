@@ -25,13 +25,13 @@ dados = [str, str, [0.0] * 5]
 # Passo 1.2. Leia os dados dos estudantes
 for i in range(tam):
     # Leitura
-    dados = input().split(', ')  # Com a divisão feita pela vírgula,
+    dados = input().split()  # Com a divisão feita pela vírgula,
     # dá pra reconhecer a lista de notas na linha 36.
 
     # Atribuição
     estudantes[i]['nome'] = dados[0]
     estudantes[i]['sobrenome'] = dados[1]
-    estudantes[i]['notas'] = list(map(float, dados[2].split()))
+    estudantes[i]['notas'][i] = list(map(float, dados[2].split()))
 
     # Média final do aluno
     # 1. Media provas
