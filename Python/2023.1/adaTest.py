@@ -3,7 +3,7 @@ a = []
 b = []
 
 for i in range(len(lista)):
-    if i%2 == 0:
+    if i % 2 == 0:
         a.append(lista[i])
     else:
         b.append(lista[i])

@@ -31,7 +31,7 @@ for i in range(tam):
     # Atribuição
     estudantes[i]['nome'] = dados[0]
     estudantes[i]['sobrenome'] = dados[1]
-    estudantes[i]['notas'] = list(map(float, dados[2].split()))
+    estudantes[i]['notas'] = list(map(float, dados[2::]))
 
     # Média final do aluno
     # 1. Media provas
